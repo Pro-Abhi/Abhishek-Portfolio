@@ -10,5 +10,41 @@
 
 body{
   font-family: 'Poppins', sans-serif;
-  background: #454545;
+  background: #080808;
+  color: #ffffff;
+}
+
+.container{
+  padding: 10px 10%;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* ----------- header CSS ----------- */
+#header{
+  width: 100%;
+  background: #242424;
+  padding: 5px 0;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav ul li a{
+  color: #ffffff;
+  font-size: 20px;
+  transition: all .4s;
+}
+
+nav ul li a:hover{
+  color: #2de04e;
 }
