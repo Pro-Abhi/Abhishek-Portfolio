@@ -31,9 +31,10 @@ a{
 
 /* --------- Header CSS --------- */
 #header{
-  background: #000b1ae0;
+  background: #021e46;
   position: sticky;
   top: 0;
+  z-index: 1000;
 }
 
 #header nav{
@@ -190,7 +191,7 @@ i{
 
 
 /* tech skills */
-.tech-skills{
+.tech-skills, .projects, .contact{
   padding: 56px 20px;
 }
 .heading{
@@ -201,7 +202,7 @@ i{
   align-items: center;
 }
 .divider{
-  width: 35%;
+  width: 33%;
   height: 2px;
   background: #3b8f0b;
 }
@@ -209,7 +210,7 @@ i{
 .text{
   margin: 0 15px;
   color: #cccccc;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 700;
 }
 
@@ -228,4 +229,132 @@ i{
 }
 .skills-row .skill span{
   color: #cccccc;
+}
+
+.work-list{
+  width: 100%;
+}
+.work-list .work{
+  width: 100%;
+  margin: 80px 0 0 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.p-ls{
+  width: 40%;
+  height: 350px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  position: relative;
+}
+
+.top{
+  width: 100%;
+  padding: 18px 12px;
+  display: flex;
+  gap: 8px;
+}
+.dot{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.dot:first-child{
+  background: rgb(252, 26, 26);
+}
+.dot:nth-child(2){
+  background: orange;
+}
+.dot:nth-child(3){
+  background: rgb(179, 179, 179);
+}
+
+
+.work img{
+  width: 100%;
+  height: fit-content;
+}
+
+.p-rs{
+  width: 50%;
+  text-align: right;
+  position: relative;
+  left: -80px;
+}
+
+.p-rs h2{
+  color: #cccccc;
+}
+
+.p-rs .p-info{
+  width: 100%;
+  margin: 20px 0 0;
+  text-align: left;
+  padding: 10px 16px;
+  background: #051830;
+  color: #cccccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.p-rs ul{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.p-rs ul li{
+  margin-left: 10px;
+  color: #cccccc;
+}
+
+.p-rs .links{
+  margin-top: 10px;
+}
+.p-rs .links li{
+  margin: 0 0 0 10px;
+}
+.p-rs .links li i{
+  font-size: 24px;
+}
+
+
+.work-2 .p-rs{
+  text-align: left;
+  position: relative;
+  left: 0;
+  z-index: 100;
+}
+.work-2 .p-ls{
+  position: relative;
+  left: -80px;
+}
+.work-2 .p-rs ul{
+  justify-content: flex-start;
+}
+
+
+.more{
+  width: 150px;
+  margin: 80px auto 0;
+  text-align: center;
+  padding: 10px 20px;
+  border: 2px solid rgb(255, 123, 0);
+}
+
+
+
+
+/* footer CSS */
+.contact .links{
+  margin: 0;
+}
+.contact .links ul{
+  justify-content: center;
+  gap: 15px;
+}
+.contact .links ul i{
+  font-size: 45px;
 }
