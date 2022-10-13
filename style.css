@@ -553,7 +553,7 @@ i{
 
 
 /* ---------- media query for 500px ---------- */
-@media (max-width: 440px){
+@media (min-width: 350px) and (max-width: 499px){
   .container{
     max-width: 440px;
   }
@@ -594,17 +594,17 @@ i{
   }
 
   .own-info .left-side h2{
-    font-size: 35px;
+    font-size: 28px;
     margin-top: 15px;
   }
 
   .own-info .left-side h3{
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 10px;
   }
 
   .own-info .left-side .short-info{
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.7;
   }
 
@@ -641,7 +641,7 @@ i{
   }
 
   .divider{
-    width: 27%;
+    width: 20%;
   }
 
   .projects .work-list .work{
@@ -666,6 +666,62 @@ i{
   .projects .work .p-rs ul{
     justify-content: flex-start;
   }
+
+  .p-rs h2{
+    color: #cccccc;
+    font-size: 20px;
+  }
+  
+  /* .p-rs .p-info{
+    width: 100%;
+    margin: 20px 0 0;
+    text-align: left;
+    padding: 10px 16px;
+    background: #051830;
+    color: #cccccc;
+    border-radius: 8px;
+    font-size: 15px;
+  }
+  
+  .p-rs ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  .p-rs ul li{
+    margin-left: 10px;
+    color: #cccccc;
+  }
+  
+  .p-rs .links{
+    margin-top: 10px;
+  }
+  .p-rs .links li{
+    margin: 0 0 0 10px;
+  }
+  .p-rs .links li i{
+    font-size: 24px;
+  }
+  
+  .work-2{
+    flex-direction: row-reverse;
+  }
+  .work-2 .p-rs{
+    text-align: left;
+    position: relative;
+    left: 0;
+    z-index: 100;
+  }
+  .work-2 .p-ls{
+    position: relative;
+    left: -80px;
+  }
+  .work-2 .p-rs ul{
+    justify-content: flex-start;
+  } */
+
+
+
 
   .contact .links ul i{
     font-size: 40px;

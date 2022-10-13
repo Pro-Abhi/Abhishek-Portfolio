@@ -1,6 +1,6 @@
 ## ⭐ Portfolio Website ⭐
 
-This is my Portfolio Website which consist of my **latest work and projects** and this portfolio is built using **HTML5, CSS3 JavaScript**.
+This is my Portfolio Website which consist of my **latest work and projects** and this portfolio is built using **HTML5, CSS3**.
 
 ## 📌 **Live Site URL:** <a href="https://abhi-portfolio-site.netlify.app/">**Visit Now** 🚀</a>
 
@@ -10,7 +10,6 @@ This is my Portfolio Website which consist of my **latest work and projects** an
 
 [![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://abhi-portfolio-site.netlify.app/)&nbsp;
 [![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://abhi-portfolio-site.netlify.app/)&nbsp;
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://abhi-portfolio-site.netlify.app/)&nbsp;
 <br>
 <br>
 
