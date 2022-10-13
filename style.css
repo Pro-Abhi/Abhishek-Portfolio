@@ -352,6 +352,10 @@ i{
   text-align: center;
   padding: 10px 20px;
   border: 2px solid rgb(255, 123, 0);
+  border-radius: 10px;
+}
+.more i{
+  font-size: 16px;
 }
 
 
@@ -537,11 +541,133 @@ i{
     .own-info .left-side .links i{
       font-size: 30px;
     }
+
+    .text{
+      font-size: 25px;
+    }
+  
+    .divider{
+      width: 27%;
+    }
 }
 
 
-@media (max-width: 500px){
+/* ---------- media query for 500px ---------- */
+@media (max-width: 440px){
+  .container{
+    max-width: 440px;
+  }
+
+  /* header CSS */
+  #header nav{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #header nav ul{
+    width: 100%;
+  }
+
+  nav .cv{
+    display: none;
+  }
+
+  /* main CSS */
+  .own-info{
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .own-info .left-side, .own-info .right-side{
+    display: block;
+    width: 100%;
+  }
+
+  .own-info .right-side{
+    width: 250px;
+    text-align: center;
+  }
+
+  .own-info .right-side img{
+    width: 100%;
+    height: auto;
+  }
+
+  .own-info .left-side h2{
+    font-size: 35px;
+    margin-top: 15px;
+  }
+
+  .own-info .left-side h3{
+    font-size: 22px;
+    margin-top: 10px;
+  }
+
+  .own-info .left-side .short-info{
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .own-info .left-side .box{
+    width: 100%;
+  }
+  .own-info .left-side .skill-box{
+    display: none;
+  }
+  .own-info .left-side .cv{
+    padding: 6px;
+  }
+
+  .own-info .left-side .cv{
+    display: block;
+  }
+  .own-info .left-side .cv a{
+    color: #cccccc;
+  }
+  .own-info .left-side .cv a:hover{
+    color: #309543;
+  }
+
+  .own-info .left-side .links i{
+    font-size: 30px;
+  }
+
+  .tech-skills, .projects, .contact{
+    width: 100%;
+  }
+  
+  .text{
+    font-size: 20px;
+  }
+
   .divider{
     width: 27%;
+  }
+
+  .projects .work-list .work{
+    width: 100%;
+    padding: 10px;
+    flex-direction: column-reverse;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+    border-radius: 10px;
+  }
+
+  .projects .work .p-ls, .projects .work .p-rs{
+    display: block;
+    width: 100%;
+    position: relative;
+    left: 0;
+  }
+  .projects .work .p-rs{
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  .projects .work .p-rs ul{
+    justify-content: flex-start;
+  }
+
+  .contact .links ul i{
+    font-size: 40px;
   }
 }
