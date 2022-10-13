@@ -22,18 +22,28 @@ a{
 }
 
 .container{
-  width: 1200px;
+  width: 1150px;
   margin: auto;
   padding: 0 30px;
+  /* border: 1px solid red; */
 }
 
 
 /* --------- Header CSS --------- */
 #header{
   background: #000b1ae0;
+  position: sticky;
+  top: 0;
+}
+
+#header nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #header ul{
+  width: 60%;
   display: flex;
   justify-content: space-around;
 }
@@ -53,6 +63,16 @@ a:hover{
   color: #3b8f0b;
 }
 
+.cv{
+  padding: 8px 16px;
+  border: 2px solid rgb(255, 123, 0);
+  border-radius: 8px;
+}
+
+.cv i{
+  font-size: 16px;
+}
+
 
 /* --------- Main CSS --------- */
 #main{
@@ -60,5 +80,152 @@ a:hover{
 }
 
 .own-info{
-  padding: 56px 64px;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.left-side{
+  flex-basis: 65%;
+  /* border: 1px solid #fff; */
+  padding: 10px;
+}
+
+.left-side .info{
+  width: 100%;
+  /* border: 1px solid #fff; */
+}
+
+.info p:first-child{
+  color: #309543;
+  font-weight: 600;
+}
+
+.info h2{
+  color: #cccccc;
+  font-size: 58px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.info h3{
+  color: #309543;
+  font-size: 38px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.info .short-info{
+  margin-top: 20px;
+  color: #cccccc;
+  line-height: 1.8;
+}
+
+span{
+  display: block;
+  color: #309543;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.skill-box{
+  padding: 8px 24px;
+  border: 2px solid #3b8f0b;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+
+.box a{
+  color: #309543;
+  font-size: 16px;
+}
+
+.box .cv{
+  display: none;
+}
+
+.links{
+  margin-top: 28px;
+}
+.links ul{
+  display: flex;
+  align-items: center;
+}
+.links ul li{
+  margin-right: 20px;
+}
+.links li a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+i{
+  font-size: 35px;
+}
+
+
+.right-side{
+  flex-basis: 35%;
+  height: 450px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-side img{
+  width: 388px;
+  height: 100%;
+}
+
+
+
+/* tech skills */
+.tech-skills{
+  padding: 56px 20px;
+}
+.heading{
+  width: 100%;
+  padding: 0 0 48px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.divider{
+  width: 35%;
+  height: 2px;
+  background: #3b8f0b;
+}
+
+.text{
+  margin: 0 15px;
+  color: #cccccc;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.skills-row{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skills-row .skill{
+  text-align: center;
+}
+.skills-row .skill img{
+  height: 90px;
+}
+.skills-row .skill span{
+  color: #cccccc;
 }
