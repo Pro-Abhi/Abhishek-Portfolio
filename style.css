@@ -1,5 +1,5 @@
 /* import google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
 
 
 *{
@@ -9,13 +9,8 @@
 }
 
 body{
-  font-family: 'Poppins', sans-serif;
-  background: #080808;
-  color: #ffffff;
-}
-
-.container{
-  padding: 10px 10%;
+  font-family: 'Roboto Mono', monospace;
+  background: #021227;
 }
 
 ul{
@@ -26,25 +21,44 @@ a{
   text-decoration: none;
 }
 
-/* ----------- header CSS ----------- */
-#header{
-  width: 100%;
-  background: #242424;
-  padding: 5px 0;
+.container{
+  width: 1200px;
+  margin: auto;
+  padding: 0 30px;
 }
 
-nav ul{
+
+/* --------- Header CSS --------- */
+#header{
+  background: #000b1ae0;
+}
+
+#header ul{
   display: flex;
-  align-items: center;
   justify-content: space-around;
 }
 
-nav ul li a{
-  color: #ffffff;
-  font-size: 20px;
-  transition: all .4s;
+#header ul li{
+  margin: 10px 0;
+  padding: 10px 0;
 }
 
-nav ul li a:hover{
-  color: #2de04e;
+a{
+  color: #cccccc;
+  font-weight: 700;
+  transition: all .3s;
+}
+
+a:hover{
+  color: #3b8f0b;
+}
+
+
+/* --------- Main CSS --------- */
+#main{
+  width: 100%;
+}
+
+.own-info{
+  padding: 56px 64px;
 }
